@@ -2,6 +2,12 @@
 templater = dbt
 dialect = snowflake
 
+
+exclude_rules = ambiguous.column_count, structure.column_order,layout.end_of_file
+
+[sqlfluff:indentation]
+allow_implicit_indents = True
+
 [sqlfluff:rules:aliasing.table]
 aliasing = explicit
 
