@@ -1,0 +1,10 @@
+target/
+dbt_packages/
+macros/
+tests/
+seeds/
+logs/
+.dbt_env
+dbt_env
+.vscode
+build

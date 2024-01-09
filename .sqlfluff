@@ -1,0 +1,10 @@
+[sqlfluff]
+templater = dbt
+dialect = snowflake
+
+[sqlfluff:rules:aliasing.table]
+aliasing = explicit
+
+[sqlfluff:rules:aliasing.column]
+aliasing = explicit
+
