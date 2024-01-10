@@ -14,6 +14,6 @@ jobs:
     - name: Install SQLFluff
       run: pip install sqlfluff
     - name: Install SQLFluff DBT	  
-	    run: pip install sqlfluff-templater-dbt
+      run: pip install sqlfluff-templater-dbt
     - name: Run SQLFluff
       run: sqlfluff lint models/example  
