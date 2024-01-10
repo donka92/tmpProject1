@@ -1,10 +1,10 @@
-name: Lint SQL
+run-name: Lin tests
 on:
-  - pull_request
+  pull_request
 jobs:
-  sqlfluff: null
-  runs-on: windows-latest
-  steps:
+  test_schedule:
+    runs-on: ubuntu-latest
+    steps:
     - name: Check out code
       uses: actions/checkout@v2
     - name: Set up Python
