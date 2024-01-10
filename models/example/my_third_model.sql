@@ -1,1 +1,2 @@
-select * from information_schema.columns
+select * 
+from information_schema.columns
