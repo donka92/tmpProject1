@@ -1,0 +1,18 @@
+[sqlfluff]
+templater = dbt
+dialect = snowflake
+
+
+exclude_rules = ambiguous.column_count, structure.column_order,layout.end_of_file,layout.indent,layout.spacing
+
+[sqlfluff:indentation]
+allow_implicit_indents = True
+
+[sqlfluff:rules:aliasing.table]
+aliasing = explicit
+
+[sqlfluff:rules:aliasing.column]
+aliasing = explicit
+
+[sqlfluff:rules:convention.blocked_words]
+blocked_words = information_schema, INFORMATION_SCHEMA
