@@ -1,6 +1,0 @@
-version: 2
-
-sources:
-  - name: source_schema
-    database: exercise_db
-    schema: information_schema
