@@ -1,5 +1,5 @@
- SELECT *
-        FROM foo
-        ORDER BY
-            bar,
-            sp
+SELECT *
+from  foo
+ORDER BY
+    bar,
+    sp

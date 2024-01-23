@@ -3,14 +3,14 @@ dialect = snowflake
 
 exclude_rules = capitalisation.functions, aliasing.forbid, structure.using, ambiguous.join, convention.left_join, structure.column_order, layout.long_lines, capitalisation.keywords, ambiguous.column_count, structure.column_order,layout.end_of_file,layout.indent,layout.spacing,capitalisation.identifiers,layout.start_of_file
 
-warnings = CV09
+warnings = CV09,Example_L001
 
 [sqlfluff:rules:convention.blocked_words]
 blocked_words = information_schema,some_num
 
 
-# [sqlfluff:rules:Example_L001]
-# forbidden_names = sp_
+[sqlfluff:rules:Example_L001]
+forbidden_names = sp_
 
 
 
